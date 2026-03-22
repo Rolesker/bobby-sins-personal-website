@@ -1,0 +1,355 @@
+/*FONTS AND TEXT*/
+@font-face {
+  font-family: maniac;
+  src: url(../fonts/HomeVideo-Regular.ttf);
+}
+@font-face {
+  font-family: circle-boy;
+  src: url(../fonts/Lemon\ Days.ttf);
+}
+@font-face {
+  font-family: old-twiddles;
+  src: url(../fonts/papyrus.ttf);
+}
+@font-face {
+  font-family: mama-i-can-fly;
+  src: url(../fonts/FrozenTide-Regular\ Final.ttf);
+}
+@font-face {
+  font-family: twiddles;
+  src: url(../fonts/ComicSansMS.ttf);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 5px 0;
+}
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+.text_style1 {
+    font-size: 2rem;
+    text-align: center;
+    color:#10c224
+}
+
+.text_style2 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.text_style3 {
+    font-size: 2rem;
+    text-align: center;
+    color:white;
+}
+
+.text_style_maniac {
+    font-family: maniac;
+    font-size: 1.5rem;
+    text-align: center;
+    color:white;
+}
+
+.text_style_glymbo {
+    font-family: maniac;
+    font-size: 1.5rem;
+    text-align: center;
+    color:rgb(255, 0, 0);
+}
+
+.text_style_kompis {
+    font-size: 1.5rem;
+    text-align: center;
+    color:rgb(33, 180, 217);
+    background-color: black;
+}
+
+.text_style_circleboy {
+    font-family: circle-boy;
+    font-size: 1.5rem;
+    text-align: center;
+    color:rgb(0, 0, 0);
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+}
+
+.text_style_oldtwiddles {
+    font-family: old-twiddles;
+    font-size: 1.5rem;
+    text-align: center;
+    color:rgb(0, 0, 0);
+}
+
+.text_style_mamaicanfly {
+    font-family: mama-i-can-fly;
+    font-size: 1.5rem;
+    text-align: center;
+    color:rgb(255, 0, 0);
+    background-color: black;
+}
+
+.text_style_twiddles {
+    font-family: twiddles;
+    font-size: 1.5rem;
+    text-align: center;
+    color:rgb(224, 144, 206);
+    background-color: gold;
+}
+
+.page_title {
+    font-size: 3rem;
+    text-align: center;
+}
+
+/*GAMES PAGE*/
+#games_banner {
+    background-image: url(../images/controller.png);
+    height: 64px;
+    font-size: 3rem;
+    color: limegreen;
+    text-align: center;
+}
+
+#released_banner {
+    background-image: url(../images/gem.gif);
+    height: 64px;
+    font-size: 3rem;
+    color: limegreen;
+    text-align: center;
+}
+#small_projects_banner {
+    background-image: url(../images/fish.png);
+    height: 64px;
+    font-size: 3rem;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+#wip_banner {
+    background-image: url(../images/warning.gif);
+    height: 64px;
+    font-size: 3rem;
+    color: rgb(255, 0, 247);
+    text-align: center;
+}
+
+.game_holder {
+    width:100%;
+    display: flex;
+}
+.screenshot_holder {
+    width: 33%;
+    display: inline-flex;
+    flex-direction: column;
+}
+.screenshot {
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.game_info_holder{
+    display: inline-block;
+    margin-left: 4%;
+    margin-right: 4%;
+    width:58%;
+    margin-bottom:10px;
+    padding:5px;
+}
+.big_break {
+    margin-top: 50px;
+}
+
+#game_maniac {
+    background-image: url(..//images/maniac_brick.png);
+}
+#game_glymbo {
+    background-image: url(..//images/grass.png);
+}
+#game_circleboy1 {
+    background-image: url(..//images/circle_brick1.png);
+}
+#game_circleboy2 {
+    background-image: url(..//images/circle_brick2.png);
+}
+#game_kompis1 {
+    background-image: url(..//images/kompis_brick.png);
+}
+#game_kompis2 {
+    background-image: url(..//images/kompis_eyes.png);
+}
+#game_oldtwiddles {
+    background-color: limegreen;
+}
+#game_mamaicanfly {
+    background-color: rgb(255, 255, 255);
+}
+#game_twiddles {
+    background-image: url(..//images/hay.png);
+}
+
+/*OTHER*/
+
+
+.row {
+  display: flex;
+}
+
+.homepage_button {
+    border:5px;
+    outline-style: solid;
+    outline-color: #3904f8;
+    display:inline-block;
+    margin-right: 11.5%;
+    margin-left: 11.5%;
+    width:10%;
+    height:10%;
+}
+
+
+
+.homepage_button_img {
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+}
+
+.page_divider {
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.intro_logo {
+    display: flex;
+    width: 20%;
+    height:20%;
+    margin:auto;
+}
+
+.centre_textbox {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #0000ff;
+    width:60%;
+    border: 4px;
+    outline-style: solid;
+    outline-color: #10c224;
+    margin-top:50px;
+    margin-bottom:10px;
+    padding:5px;
+}
+
+#aboutme_textbox {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: bisque;
+    width:80%;
+    height: 80%;
+    margin-top:50px;
+    margin-bottom:10px;
+    padding:8px;
+}
+
+#links_textbox {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    outline-style: solid;
+    outline-color: #c21010;
+    width:40%;
+    margin-top:100px;
+    margin-bottom:100px;
+}
+
+.links_earth{
+    display: inline-block;
+    margin-left: 4.6%;
+    width: 15%;
+    margin-right: 4.6%;
+}
+
+@media only screen and (max-width: 1026px) {
+    .intro_logo {
+        display: none;
+    }
+    .links_earth {
+        display: none;
+    }
+    #links_textbox {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin-left: 15%;
+        margin-right: 15%;
+        border: 10px;
+        outline-style: solid;
+        outline-color: #c21010;
+        width:70%;
+        margin-top:100px;
+        margin-bottom:100px;
+        padding:20px;
+    }
+    .logo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+
+    .homepage_button {
+        border:5px;
+        outline-style: solid;
+        outline-color: #3904f8;
+        display:inline-block;
+        margin-right: 30%;
+        margin-left: 30%;
+        margin-bottom: 8px;
+        width:40%;
+    }
+
+    .page_divider {
+        width: 80%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .screenshot_holder {
+        width: 100%;
+        display: inline-block;
+    }
+
+    .game_info_holder{
+        display: inline-block;
+        margin-left: 4%;
+        margin-right: 4%;
+        width:92%;
+        margin-bottom:10px;
+        padding:5px;
+    }
+
+    .game_holder {
+        width:100%;
+        display: block;
+    }
+
+}
