@@ -51,6 +51,7 @@ li {
     font-size: 2rem;
     text-align: center;
     color:white;
+    background-color:rgb(0, 0, 0);
 }
 
 .text_style_maniac {
@@ -115,10 +116,10 @@ li {
     background-image: url(../images/controller.png);
     height: 64px;
     font-size: 3rem;
-    color: limegreen;
+    color: rgb(205, 50, 50);
+    background-color: black;
     text-align: center;
 }
-
 #released_banner {
     background-image: url(../images/gem.gif);
     height: 64px;
