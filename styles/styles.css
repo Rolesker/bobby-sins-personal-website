@@ -102,13 +102,17 @@ li {
     font-family: twiddles;
     font-size: 1.5rem;
     text-align: center;
-    color:rgb(224, 144, 206);
-    background-color: gold;
+    color:rgb(229, 185, 242);
+    background-color: rgb(188, 159, 45)
 }
 
 .page_title {
     font-size: 3rem;
     text-align: center;
+}
+
+#aboutme_title {
+    color:rgb(255, 89, 0);
 }
 
 /*GAMES PAGE*/
