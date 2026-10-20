@@ -117,6 +117,14 @@ li {
     color:#ff0000;
 }
 
+.text_style_rhino {
+    font-family: cyborg;
+    font-size: 1.5rem;
+    text-align: center;
+    color:#389b45;
+    background-color: rgb(255,119,0);
+}
+
 .page_title {
     font-size: 3rem;
     text-align: center;
@@ -213,6 +221,9 @@ li {
 }
 #game_cyborg {
     background-color: black;
+}
+#game_rhino {
+    background-color: rgb(155,213,223);
 }
 
 /*OTHER*/
